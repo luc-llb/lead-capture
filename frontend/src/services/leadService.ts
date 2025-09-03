@@ -3,8 +3,8 @@ import { API_ENDPOINTS } from '../config/api';
 import { apiService, ApiError } from './apiService';
 
 class LeadService {
-    
-    // Criar um novo lead
+
+    // Create a new lead
     async createLead(leadData: Lead): Promise<ApiSuccessResponse> {
         try {
             this.validateLeadData(leadData);
@@ -22,7 +22,7 @@ class LeadService {
             }
             
             // Wrap other errors
-            throw new ApiError('Erro ao criar lead', 500, error);
+            throw new ApiError('Error creating lead', 500, error);
         }
     }
 

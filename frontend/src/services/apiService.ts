@@ -51,7 +51,7 @@ class ApiService {
             if (!response.ok) {
                 const errorData: ApiErrorResponse = await response.json();
                 throw new ApiError(
-                    errorData.message || 'Erro na requisição',
+                    errorData.message || 'Error in API request',
                     response.status,
                     errorData
                 );
