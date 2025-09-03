@@ -15,7 +15,7 @@ function App() {
         </div>
       </Card>
     </>
-  )
+  );
 }
 
 export default App

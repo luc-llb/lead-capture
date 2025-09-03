@@ -6,6 +6,8 @@ interface StylizedInputProps {
     value?: string;
     onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
     className?: string;
+    name?: string;
+    disabled?: boolean;
 }
 
 export default function StylizedInput(props: StylizedInputProps) {
@@ -17,6 +19,8 @@ export default function StylizedInput(props: StylizedInputProps) {
         placeholder={props.placeholder || ''}
         value={props.value || ''}
         onChange={props.onChange}
+        name={props.name || ''}
+        disabled={props.disabled || false}
       />
     </>
   );
