@@ -56,7 +56,7 @@ backend/
 
 1. **Clone the repository:**
    ```bash
-   git clone <REPOSITORY_URL>
+   git clone https://github.com/luc-llb/lead-capture.git
    cd lead-capture/backend
    ```
 
@@ -173,7 +173,7 @@ Este serviço backend gerencia captura e gestão de leads, com integração ao C
 
 1. **Clone o repositório:**
    ```bash
-   git clone <URL_DO_REPOSITORIO>
+   git clone https://github.com/luc-llb/lead-capture.git
    cd lead-capture/backend
    ```
 
